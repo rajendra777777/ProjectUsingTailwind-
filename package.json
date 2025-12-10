@@ -7,11 +7,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start":"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.17",
     "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "install": "^0.13.0"
   }
 }

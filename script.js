@@ -1,5 +1,5 @@
 const header = document.getElementById('header')
-
+const hamburger = document.getElementById('hamburger')
 
 window.addEventListener('scroll',()=>{
 if(window.scrollY>50){
@@ -9,4 +9,8 @@ header.classList.add('bg-black/75')
 header.classList.remove('backdrop-blur-[3px]')
 header.classList.remove('bg-black/75')
 }
+})
+
+hamburger.addEventListener('click',()=>{
+header.classList.toggle('open-menu')
 })

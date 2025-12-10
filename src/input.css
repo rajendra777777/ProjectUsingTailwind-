@@ -11,3 +11,6 @@
   --breakpoint-xs: 35rem;
   --breakpoint-media448: 28rem;
 }
+
+@custom-variant open-menu (.open-menu &);
+
